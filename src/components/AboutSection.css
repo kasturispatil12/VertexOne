@@ -1,0 +1,147 @@
+.about-section {
+  max-width: 1100px;
+  margin: 5px auto;
+  padding: 0 10px;
+  margin-top: 20px;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  flex-wrap: wrap;
+  background: #FFFDF8;
+  border: 1px solid #DCCFC0;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(92, 64, 51, 0.08);
+}
+
+
+.about-content {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  
+  flex-direction: left;
+    
+}
+
+.about-content h2 {
+  font-size: 28px;
+  color: #3E2723;
+  margin-bottom: 10px;
+   
+}
+
+.about-content p {
+  color: #5A4635;
+  font-size: 16px;
+  line-height: 1.9;
+ 
+  text-align: justify;
+  
+}
+
+
+
+.about-features {
+  list-style: none;
+  padding: 0;
+  margin: 25px 0;
+  text-align: left;
+  
+}
+
+.about-features li {
+  display: flex;
+  align-items: left;
+  gap: 9px;
+  margin-bottom: 10px;
+  color: #5A4635;
+  font-size: 16px;
+  
+}
+
+.about-features svg {
+  color: #8B5E3C;
+  font-size: 18px;
+  
+}
+
+
+.about-btn {
+  display: inline-block;
+  align-self: flex-start; 
+  margin-top: auto;       
+  padding: 10px 18px;
+  background: #5C4033;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.about-btn:hover {
+  background: #8B5E3C;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(92, 64, 51, 0.25);
+  
+}
+
+
+@media (max-width: 900px) {
+
+  .about-container {
+    flex-direction: column;
+    text-align: right;
+    padding: 20px;
+  }
+
+  .about-content h2 {
+    font-size: 32px;
+  }
+
+  .about-content p {
+    text-align: left;
+  }
+
+  .about-features li {
+    justify-content: flex-start;
+    
+  }
+}
+
+@media (max-width: 768px) {
+
+  .about-section {
+    padding: 0 5px;
+  }
+
+  .about-content h2 {
+    font-size: 48px;
+  }
+
+  .about-content p {
+    font-size: 15px;
+  }
+
+  .about-btn {
+    width: 100%;
+    text-align: left;
+    
+  }
+}
+
+.section-tag {
+  display: inline-block;
+  background: #EADCCF;
+  color: #5C4033;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  margin-bottom: 16px;
+}
