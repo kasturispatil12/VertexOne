@@ -6,10 +6,8 @@ const {
 } = require("../controllers/dashboardController");
 
 
-
-console.log("auth:", auth);
 console.log("getDashboardStats:", getDashboardStats);
 
-router.get("/", auth, getDashboardStats);
+router.get("/",  getDashboardStats);
 
 module.exports = router;

@@ -15,10 +15,10 @@ console.log("createService:", createService);
 router.get("/", getServices);
 
 // Protected Routes
-router.post("/", auth, createService);
+router.post("/",  createService);
 
-router.put("/:id", auth, updateService);
+router.put("/:id", updateService);
 
-router.delete("/:id", auth, deleteService);
+router.delete("/:id",  deleteService);
 
 module.exports = router;

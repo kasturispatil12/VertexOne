@@ -16,10 +16,10 @@ console.log("createFAQ:", createFAQ);
 router.get("/", getFAQs);
 
 // Protected Routes
-router.post("/", auth, createFAQ);
+router.post("/", createFAQ);
 
-router.put("/:id", auth, updateFAQ);
+router.put("/:id",  updateFAQ);
 
-router.delete("/:id", auth, deleteFAQ);
+router.delete("/:id",  deleteFAQ);
 
 module.exports = router;
