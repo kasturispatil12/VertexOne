@@ -1,0 +1,96 @@
+.recent-activity {
+  background: #ffffff;
+
+  border-radius: 12px;
+
+  padding: 20px;
+
+  margin-top: 20px;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Heading */
+
+.recent-activity h2 {
+  margin: 0 0 18px;
+
+  font-size: 20px;
+
+  font-weight: 700;
+
+  color: #333;
+}
+
+
+/* Activity list */
+
+.activity-item {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 14px 0;
+
+  border-bottom: 1px solid #eeeeee;
+}
+
+
+.activity-item:last-child {
+  border-bottom: none;
+}
+
+
+/* Activity text */
+
+.activity-item p {
+  margin: 0;
+
+  font-size: 14px;
+
+  font-weight: 500;
+
+  color: #444;
+}
+
+
+/* Date */
+
+.activity-item span {
+  font-size: 12px;
+
+  color: #888;
+
+  white-space: nowrap;
+}
+
+
+/* Empty state */
+
+.recent-activity > p {
+  text-align: center;
+
+  padding: 20px;
+
+  color: #777;
+
+  font-size: 14px;
+}
+
+
+/* Hover effect */
+
+.activity-item:hover {
+  background: #fafafa;
+
+  border-radius: 8px;
+
+  padding-left: 10px;
+
+  padding-right: 10px;
+
+  transition: 0.2s ease;
+}

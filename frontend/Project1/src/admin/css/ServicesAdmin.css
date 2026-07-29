@@ -1,0 +1,72 @@
+.table-container {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.component-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.component-table th {
+  background: #4b2e2b;
+  color: white;
+  padding: 16px;
+  text-align: left;
+}
+
+.component-table td {
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.component-table tr:hover {
+  background: #faf7f4;
+}
+
+.status {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.active {
+  background: #d9f5dd;
+  color: #14853b;
+}
+
+.inactive {
+  background: #ffe2e2;
+  color: #c62828;
+}
+
+.edit-btn,
+.delete-btn {
+  border: none;
+  padding: 8px 14px;
+  margin-right: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.edit-btn {
+  background: #2196f3;
+  color: white;
+}
+
+.delete-btn {
+  background: #f44336;
+  color: white;
+}
+
+.edit-btn:hover {
+  background: #1976d2;
+}
+
+.delete-btn:hover {
+  background: #d32f2f;
+}
